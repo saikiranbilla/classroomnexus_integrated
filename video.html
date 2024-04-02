@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Griet Conf</title>
+  <style>
+    body {
+      font-family: Poppins, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: #3f51b5;
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #fff;
+      font-size: 16px;
+      transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+    }
+
+    button:hover {
+      background-color: #2f3e9e;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    button i {
+      margin-right: 10px;
+    }
+
+    .create-room {
+      background-color: #2ecc71;  /* Green */
+    }
+
+    .join-room {
+      background-color: #3498db;  /* Blue */
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/your_fontawesome_kit_id.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Classroom Nexus Conf</h1>
+  </header>
+  <main>
+    <div class="button-container">
+      <button class="create-room"><a href="https://classroomnexusconf.vercel.app/">Create Room</a> <i class="fas fa-plus"></i></button>
+      <button class="join-room"><a href="join_room.html">Join Room</a> <i class="fas fa-sign-in-alt"></i></button>
+    </div>
+  </main>
+</body>
+</html>
